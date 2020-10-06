@@ -1,0 +1,83 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+ body {
+  font-family: 'Roboto', sans-serif;
+  color: #070707;
+  background-color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #070707;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+h2 {
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: .9em;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+
+
+}   
+.heading {
+  padding: 25px;
+  text-align:center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+
+
+}
+
+.image-wrapper img {
+  width: 80%;
+  max-width: 350px;
+
+}
+
+audio {
+  width: 85%;
+  margin-bottom: 25px;
+}
+.alarm-sounds{
+  padding: 20px;
+  border-radius: 10px;
+}
+.sounds{
+  padding: 20px;
+}
+
+span {
+  color: red;
+}
+
+@media only screen and (max-width: 992px) { 
+
+  .grid-container {
+   
+    grid-template-columns:1fr;
+  
+  }
+  audio {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+}

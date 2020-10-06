@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://kit.fontawesome.com/61660ed236.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="icon" 
+      type="image/png" 
+      href="./img/icon.png" />
+
+  <title>Super Security Pro | Sounds</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="heading">
+      <div class="image-wrapper">
+        <img src="./img/image.png" alt="">
+      </div>
+      <h1>Super Security Pro Sounds</h1>
+      <p><span>***</span> Warning: some sounds may be loud. Lower computer volume before listening.<span>***</span></p>
+    </div>
+
+    <div class="grid-container">
+
+      <div class="sounds alert-sounds">
+        <h3>Sound 1</h3>
+        <audio controls>
+          <source src="./sounds/Alert 1.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+        <h3>Sound 2</h3>
+        <audio controls>
+          <source src="./sounds/Alert 2.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+        <h3>Sound 3</h3>
+        <audio controls>
+          <source src="./sounds/Alert 3.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+        <h3>Sound 4</h3>
+        <audio controls>
+          <source src="./sounds/Alert 4.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+        <h3>Sound 5</h3>
+        <audio controls>
+          <source src="./sounds/Alert 5.wav" type="audio/wav">
+        Your browser does not support the audio element.
+        </audio>
+
+      </div>
+
+
+      <div class="sounds">
+          <h3>Sound 6</h3>
+          <audio controls>
+            <source src="./sounds/Alarm 1.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+          <h3>Sound 7 <span>***</span></h3>
+          <audio controls id="sound7">
+            <source src="./sounds/Alarm 2.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+          <h3>Sound 8</h3>
+          <audio controls>
+            <source src="./sounds/Alarm 3.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+          <h3>Sound 9 <span>***</span></h3>
+          <audio controls id="sound9">
+            <source src="./sounds/Alarm 4.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+          <h3>Sound 10 <span>***</span></h3>
+          <audio controls id="sound10">
+            <source src="./sounds/Alarm 5.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  </body>
+  <script>
+    document.getElementById("sound7").volume = 0.2;
+    document.getElementById("sound9").volume = 0.2;
+    document.getElementById("sound10").volume = 0.2;
+  </script>
+</html>
+
